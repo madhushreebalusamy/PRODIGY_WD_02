@@ -1,3 +1,4 @@
+// Variables
 var startBtn = document.getElementById('start');
 var stopBtn = document.getElementById('pause');
 var resetBtn = document.getElementById('reset');
@@ -70,7 +71,7 @@ function incrementClock() {
 
     hour.innerHTML ='0'+hours;
     minute.innerHTML = '0'+minutes;
-    second.innerHTML = '0'+seconds;
+    second.innerHTML = seconds;
     setTimeout(incrementClock, 999);
 }
 
@@ -81,6 +82,6 @@ function lap () {
     let seconds = second.innerHTML;
     let newLap = document.createElement("div");
     newLap.className = "lap";
-    newLap.innerHTML = '0'+hours + ":" + '0'+minutes + ":" + '0'+seconds;
+    newLap.innerHTML = hours + ":" + minutes + ":" + seconds;
     laps.appendChild(newLap);
 }

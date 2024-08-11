@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e7a2f0;
+    background-color: #d697dd;
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,9 +14,9 @@ body {
     text-align: center;
     background-color: #fff;
     padding: 2em;
-    border: 2px solid #ddd;
+    border: 2px solid #0d0d0d;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #time-display {
@@ -40,14 +40,14 @@ body {
     margin: 5px;
     border: none;
     border-radius: 5px;
-    background-color: #2e0639;
+    background-color: #753786;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 #controls button:hover {
-    background-color: #5d4037;
+    background-color: #59385f;
     transform: scale(1.05);
 }
 
@@ -63,7 +63,7 @@ body {
 #laps div {
     margin: 5px 0;
     padding: 5px;
-    background-color: #f8f8f8;
+    background-color: #f4dbfa;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
